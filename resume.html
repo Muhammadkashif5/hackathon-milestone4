@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dani Schwaiger Resume</title>
+    <link rel="stylesheet" href="./resume.css" />
+  </head>
+  <body>
+    <div class="container" id="resumeContent" >
+      <!-- Header Section -->
+      <header>
+        <div class="name-section">
+          <h1 id="name"></h1>
+          <p id="title">GIAIC Trainee</p>
+        </div>
+      </header>
+
+      <!-- Contact and Profile Section -->
+      <div class="main-content">
+        <section class="contact-profile" style="width: 50%;">
+          <div class="skills contact">
+            <h2>Contact Details</h2>
+            <p id="contact"></p>
+            <p id="email"></p>
+          </div>
+          <div class="skills">
+            <h2>Skills</h2>
+            <ul style="list-style-type:disc" id="skills">
+            </ul>
+          </div>
+
+          <div class="skills">
+            <h2>Languages</h2>
+            <ul style="list-style-type:disc" id="languages">
+            </ul>
+          </div>
+
+          <!-- <div class="hobbies">
+            <h2>Hobbies</h2>
+            <ul style="list-style-type:disc">
+              <li>Gyming</li>
+              <li>Reading</li>
+              <li>Football</li>
+              <li>Traveling</li>
+            </ul>
+          </div> -->
+          
+        </section>
+
+        <section style="width: 70%;">
+          <div class="profile skills mb">
+            <h2>Profile</h2>
+            <p id="summary">
+              I am a final-year student in BS Electrical Engineering Technology at Ziauddin University, passionate about leveraging technology to solve real-world problems. I have hands-on experience particularly with HTML, CSS, and TypeScript, and have successfully built number of projects. With a strong foundation in programming and project development, I aim to continue learning and growing in the field of AI and contribute to cutting-edge projects.
+            </p>
+          </div>
+
+          <!-- <div class="education mb">
+            <h2>Education</h2>
+            <p><strong>BS Electrical Engineering Technology</strong></p>
+            <p>Ziauddin University<br />2020 - 2024</p>
+            <p><strong>DAE in Electrical Technology</strong></p>
+            <p>Pakistan Navy Polytechnic Institute<br />2017 - 2019</p>
+            <p><strong>Secondary School Certificate</strong></p>
+            <p>FG Boys Secondary School Karachi Cantt<br />2014</p>
+          </div> -->
+
+          <div class="right-column mb">
+            <h2>Experience</h2>
+            <div class="job" id="experience">
+              <!-- <h3>GIAIC Trainee</h3>
+              <p>Governor House Karachi<br />Feb 2024 - Present</p>
+              <ul style="list-style-type:disc">
+                <li>Learning foundational technologies potentially TypeScript</li>
+                <li>
+                  Building practical projects
+                </li>
+                <li>
+                  Gaining hands-on experience
+                </li>
+                <li>
+                  Connecting with fellow students
+                </li>
+              </ul> -->
+            </div>
+
+            <div class="right-column">
+              <h2>References</h2>
+              <p class="reference-text">References are available upon request. Please feel free to contact for further details.</p>
+              <ul>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div style="display: flex; justify-content: center; gap: 5px; margin: 20px 0px;">
+      <button id="downloadBtn" style="font-size: 20px; padding: 10px;">Download PDF</button>
+      <button id="editResume" style="font-size: 20px; padding: 10px;">Edit Resume</button>
+    </div>
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+  <script src="./resume.js"></script>
+</html>

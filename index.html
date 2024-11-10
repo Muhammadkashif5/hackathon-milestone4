@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Resume Builder</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="container">
+    <h1>Dynamic & Editable Resume Builder</h1>
+    <form id="resumeForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required placeholder="Enter your full name">
+
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title" required placeholder="Enter your professional title or job position">
+
+      <label for="summary">Summary:</label>
+      <textarea id="summary" name="summary" rows="4" required placeholder="Provide a brief summary about yourself or your career"></textarea>
+      
+      <div id="experienceContainer">
+        <label for="experienceTitle-0">Designation:</label>
+        <input type="text" id="experienceTitle-0" name="experienceTitle" required placeholder="Enter your job designation (e.g., Software Engineer)">
+  
+        <label for="experienceLocation-0">Firm Name:</label>
+        <input type="text" id="experienceLocation-0" name="experienceLocation" required placeholder="Enter the name of the company">
+  
+        <label for="experienceStartDate-0">Start Date:</label>
+        <input type="date" id="experienceStartDate-0" name="experienceStartDate" required>
+  
+        <label for="experienceEndDate-0">End Date:</label>
+        <input type="date" id="experienceEndDate-0" name="experienceEndDate" required>
+  
+        <label for="experienceDescription-0">Job Description:</label>
+        <textarea id="experienceDescription-0" name="experienceDescription" rows="4" required placeholder="Briefly describe your responsibilities and achievements"></textarea>
+      </div>
+  
+      <button type="button" id="addExperienceBtn">Add Experience</button>
+      
+      <label for="skills">Skills:</label>
+      <input type="text" id="skills" name="skills" required placeholder="List your skills, separated by commas if multiple">
+
+      <label for="language">Languages:</label>
+      <input type="text" id="language" name="language" required Placeholder= "List languages you know, separated by commas if multiple">
+
+      <label for="contact">Contact Number:</label>
+      <input type="text" id="contact" name="contact" required placeholder="Enter your contact">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required placeholder="Enter your professional email address">
+      
+      <!-- Change button type to 'submit' -->
+      <button type="submit" id="generateBtn">Generate Resume</button>
+    </form>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>

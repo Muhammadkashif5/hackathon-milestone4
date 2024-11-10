@@ -1,0 +1,3 @@
+                             #_____________Hackathon Milestone 4  -  Editable Resume Generator_______________#
+ 
+The Editable Resume Generator project, developed as part of Hackathon Milestone 4, enables users to generate a resume and edit it in real-time. With a user-friendly interface, users can make instant updates to any part of the resume without needing to regenerate it, allowing for quick adjustments and personalization. Once satisfied, the resume can be saved or shared, making it a flexible tool for job seekers or professionals. This project leverages HTML, CSS, and JavaScript to deliver a seamless, interactive experience, and future improvements will focus on adding customization options and additional download formats.

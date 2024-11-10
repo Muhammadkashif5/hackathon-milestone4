@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 50px 20px 50px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #ccc;
+}
+
+.name-section {
+  font-size: 1.5rem;
+}
+
+.name-section h1 {
+  font-weight: bold;
+}
+
+.name-section span {
+  color: #888;
+}
+
+.profile-pic img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.contact-profile {
+  flex: 1;
+  margin-right: 50px;
+}
+
+.contact {
+  margin-bottom: 20px;
+}
+
+.contact p {
+  margin-bottom: 10px;
+}
+
+.profile h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.profile p {
+  text-align: justify;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-column,
+.right-column {
+  flex: 1;
+}
+
+.skills ul,
+.hobbies ul,
+.job ul {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.skills ul li,
+.hobbies ul li,
+.job ul li {
+  margin-bottom: 10px;
+}
+
+.skills h2,
+.hobbies h2,
+.education h2,
+.right-column h2 {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.education p {
+  margin-bottom: 10px;
+}
+
+.job {
+  margin-bottom: 20px;
+}
+
+.job h3 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.job p {
+  margin-bottom: 10px;
+}
+
+.reference-text {
+  margin-top: 15px;
+}
+
+.education h2 {
+  margin-top: 10px;
+}
+h2 {
+  font-size: 25px !important;
+}
+
+header {
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+header h1,header p {
+  color: white;
+}
+
+.contact-profile {
+  background-color: rgb(194, 194, 194);
+  padding: 5px 15px;
+  border-radius: 10px
+}
+.mb h2{
+  border-bottom: 2px solid #ccc;
+}
